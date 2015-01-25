@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="assets/ico/favicon.png">
-<title>TSHOP - Bootstrap E-Commerce Parallax Theme</title>
+<title>Vapetastic</title>
 <!-- Bootstrap core CSS -->
 <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 

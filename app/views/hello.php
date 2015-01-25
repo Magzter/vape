@@ -13,6 +13,9 @@
 <!-- Bootstrap core CSS -->
 <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+<!-- add theme styles for this template -->
+<link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/skin-3.css">
+
 <!-- Custom styles for this template -->
 <link href="assets/css/style.css" rel="stylesheet">
 
@@ -160,10 +163,6 @@
       <div class="row">
         <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
           <div class="pull-left ">
-            <ul class="userMenu ">
-              <li> <a href="#"> <span class="hidden-xs">HELP</span><i class="glyphicon glyphicon-info-sign hide visible-xs "></i> </a> </li>
-              <li class="phone-number"> <a  href="callto:+8801680531352"> <span> <i class="glyphicon glyphicon-phone-alt "></i></span> <span class="hidden-xs" style="margin-left:5px"> 88 01680 53 1352 </span> </a> </li>
-            </ul>
           </div>
         </div>
         <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 no-margin no-padding">
@@ -1388,8 +1387,8 @@
  // this script required for subscribe modal
 $(window).load(function(){
  // full load
- $('#modalAds').modal('show');
- $('#modalAds').removeClass('hide');
+ //$('#modalAds').modal('show');
+ //$('#modalAds').removeClass('hide');
 });
 
 </script>

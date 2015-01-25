@@ -13,9 +13,6 @@
 <!-- Bootstrap core CSS -->
 <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-<!-- add theme styles for this template -->
-<link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/skin-3.css">
-
 <!-- Custom styles for this template -->
 <link href="assets/css/style.css" rel="stylesheet">
 
@@ -58,7 +55,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
-        <h3 class="modal-title-site text-center" > Login  to TSHOP </h3>
+        <h3 class="modal-title-site text-center" > Login  to Vapetastic </h3>
       </div>
       <div class="modal-body">
         <div class="form-group login-username">
@@ -90,7 +87,7 @@
       </div>
       <div class="modal-footer">
         <p class="text-center"> Not here before? <a data-toggle="modal"  data-dismiss="modal" href="#ModalSignup"> Sign Up. </a> <br>
-          <a href="forgot-password.html" > Lost your password? </a> </p>
+          <a href="#" > Lost your password? </a> </p>
       </div>
     </div>
     <!-- /.modal-content --> 
@@ -158,41 +155,13 @@
 
 <!-- Fixed navbar start -->
 <div class="navbar navbar-tshop navbar-fixed-top megamenu" role="navigation">
-  <div class="navbar-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-          <div class="pull-left ">
-          </div>
-        </div>
-        <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 no-margin no-padding">
-          <div class="pull-right">
-            <ul class="userMenu">
-              <li> <a href="account-1.html"><span class="hidden-xs"> My Account</span> <i class="glyphicon glyphicon-user hide visible-xs "></i></a> </li>
-              <li> <a href="#"  data-toggle="modal" data-target="#ModalLogin"> <span class="hidden-xs">Sign In</span> <i class="glyphicon glyphicon-log-in hide visible-xs "></i> </a> </li>
-              <li class="hidden-xs"> <a href="#"  data-toggle="modal" data-target="#ModalSignup"> Create Account </a> </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!--/.navbar-top-->
   
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only"> Toggle navigation </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> <span class="icon-bar"> </span> </button>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-cart"> <i class="fa fa-shopping-cart colorWhite"> </i> <span class="cartRespons colorWhite"> Cart ($210.00) </span> </button>
-      <a class="navbar-brand " href="index.html"> <img src="images/logo.png" alt="TSHOP"> </a> 
-      
-      <!-- this part for mobile -->
-      <div class="search-box pull-right hidden-lg hidden-md hidden-sm">
-        <div class="input-group">
-          <button class="btn btn-nobg getFullSearch" type="button"> <i class="fa fa-search"> </i> </button>
-        </div>
-        <!-- /input-group --> 
-        
-      </div>
+      <a class="navbar-brand " href="index.html"> <div class="brand-name" style="font-family: Raleway,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;text-align: center;padding-top: 5px;">VAPETASTIC</div> </a> 
     </div>
     
     <!-- this part is duplicate from cartMenu  keep it for mobile -->
@@ -292,241 +261,39 @@
                 <li class="no-border">
                   <p class="promo-1"> <strong> NEW COLLECTION </strong> </p>
                 </li>
-                <li> <a href="category.html"> ALL NEW PRODUCTS </a> </li>
-                <li> <a href="category.html"> NEW TOPS </a> </li>
-                <li> <a href="category.html"> NEW SHOES </a> </li>
-                <li> <a href="category.html"> NEW TSHIRT </a> </li>
-                <li> <a href="category.html"> NEW TSHOP </a> </li>
+                <li> <a href="#"> ALL NEW PRODUCTS </a> </li>
+                <li> <a href="#"> NEW VG LIQUIDS </a> </li>
+                <li> <a href="#"> NEW PG LIQUIDS </a> </li>
+                <li> <a href="#"> NEW VG/PG LIQUIDS </a> </li>
               </ul>
               <ul class="col-lg-3  col-sm-3 col-md-3  col-xs-4">
-                <li> <a class="newProductMenuBlock" href="product-details.html"> <img class="img-responsive" src="images/site/promo1.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> JEANS </span> </a> </li>
+                <li> <a class="newProductMenuBlock" href="#"> <img class="img-responsive" src="images/site/promo1.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> Fruit </span> </a> </li>
               </ul>
               <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-4">
-                <li> <a class="newProductMenuBlock" href="product-details.html"> <img class="img-responsive" src="images/site/promo2.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> PARTY DRESS </span> </a> </li>
+                <li> <a class="newProductMenuBlock" href="#"> <img class="img-responsive" src="images/site/promo2.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> Coffee </span> </a> </li>
               </ul>
               <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-4">
-                <li> <a class="newProductMenuBlock" href="product-details.html"> <img class="img-responsive" src="images/site/promo3.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> SHOES </span> </a> </li>
+                <li> <a class="newProductMenuBlock" href="#"> <img class="img-responsive" src="images/site/promo3.jpg" alt="product"> <span class="ProductMenuCaption"> <i class="fa fa-caret-right"> </i> Sweets </span> </a> </li>
               </ul>
             </li>
           </ul>
         </li>
-        
-        <!-- change width of megamenu = use class > megamenu-fullwidth, megamenu-60width, megamenu-40width -->
-        <li class="dropdown megamenu-80width "> <a data-toggle="dropdown" class="dropdown-toggle" href="#"> SHOP <b class="caret"> </b> </a>
-          <ul class="dropdown-menu">
-            <li class="megamenu-content"> 
-              
-              <!-- megamenu-content -->
-              
-              <ul class="col-lg-2  col-sm-2 col-md-2  unstyled noMarginLeft">
-                <li>
-                  <p> <strong> Women Collection </strong> </p>
-                </li>
-                <li> <a href="#"> Kameez </a> </li>
-                <li> <a href="#"> Tops </a> </li>
-                <li> <a href="#"> Shoes </a> </li>
-                <li> <a href="#"> T shirt </a> </li>
-                <li> <a href="#"> TSHOP </a> </li>
-                <li> <a href="#"> Party  Dress </a> </li>
-                <li> <a href="#"> Women Fragrances </a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2  unstyled">
-                <li>
-                  <p> <strong> Men Collection </strong> </p>
-                </li>
-                <li> <a href="#"> Panjabi </a> </li>
-                <li> <a href="#"> Male Fragrances </a> </li>
-                <li> <a href="#"> Scarf </a> </li>
-                <li> <a href="#"> Sandal </a> </li>
-                <li> <a href="#"> Underwear </a> </li>
-                <li> <a href="#"> Winter Collection </a> </li>
-                <li> <a href="#"> Men Accessories </a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2  unstyled">
-                <li>
-                  <p> <strong> Top Brands </strong> </p>
-                </li>
-                <li> <a href="#"> Diesel </a> </li>
-                <li> <a href="#"> Farah </a> </li>
-                <li> <a href="#"> G-Star RAW </a> </li>
-                <li> <a href="#"> Lyle & Scott </a> </li>
-                <li> <a href="#"> Pretty Green </a> </li>
-                <li> <a href="#"> TSHOP </a> </li>
-                <li> <a href="#"> TANJIM </a> </li>
-              </ul>
-              <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-6">
-                <li class="no-margin productPopItem "> <a href="product-details.html"> <img class="img-responsive" src="images/site/g4.jpg" alt="img"> </a> <a class="text-center productInfo alpha90" href="product-details.html"> Eodem modo typi <br>
-                  <span> $60 </span> </a> </li>
-              </ul>
-              <ul class="col-lg-3  col-sm-3 col-md-3 col-xs-6">
-                <li class="no-margin productPopItem relative"> <a href="product-details.html"> <img class="img-responsive" src="images/site/g5.jpg" alt="img"> </a> <a class="text-center productInfo alpha90" href="product-details.html"> Eodem modo typi <br>
-                  <span> $60 </span> </a> </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li class="dropdown megamenu-fullwidth"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"> PAGES <b class="caret"> </b> </a>
-          <ul class="dropdown-menu">
-            <li class="megamenu-content"> 
-              
-              <!-- megamenu-content -->
-              
-              <h3 class="promo-1 no-margin hidden-xs"> 28+ HTML PAGES ONLY $8 || AVAILABLE ONLY AT WRAP BOOTSTRAP </h3>
-              <h3 class="promo-1sub hidden-xs"> Complete Parallax E-Commerce Boostrap Template, Responsive on any Device, 10+ color Theme + Parallax Effect </h3>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> Home Pages </strong> </p>
-                </li>
-                <li> <a href="index.html"> Home Version 1 </a> </li>
-                <li> <a href="index2.html"> Home Version 2 </a> </li>
-                <li> <a href="index3.html"> Home Version 3 (BOXES) </a> </li>
-                <li> <a href="index4.html"> Home Version 4 (LOOK 2)</a> </li>
-                <li> <a href="index5.html"> Home Version 5 (LOOK 3)</a> </li>
-                <li> <a href="index-header2.html"> Header Version 2 </a> </li>
-                <li> <a href="index-header3.html"> Header Version 3 </a> </li>
-                <li> <a href="index-static-search.html">Header Version 4<br>
-                  ( Static Search Form)</a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> Featured Pages </strong> </p>
-                </li>
-                <li> <a href="category.html"> Category </a> </li>
-                <li> <a href="sub-category.html"> Sub Category </a> </li>
-                <li> <a href="category-list.html"> Category List View </a> </li>
-                <li> <a href="product-details.html"> Product Details Version 1 </a> </li>
-                <li> <a href="product-details-style2.html"> Product Details Version 2 </a> </li>
-                <li> <a href="product-details-style3.html"> Product Details Version 3  (Custom Thumbnail Position)</a> </li>
-                  <li> <a href="single-product-modal.html"> Single Product Details Modal</a></li>
- <li> <a href="single-subscribe-modal.html"> Single Subscribe Modal</a></li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> &nbsp; </strong> </p>
-                </li>
-                <li> <a href="cart.html"> Cart </a> </li>
-                <li> <a href="about-us.html"> About us </a> </li>
-                <li> <a href="about-us-2.html"> About us 2 (no parallax) </a> </li>
-                <li> <a href="contact-us.html"> Contact us </a> </li>
-                <li> <a href="contact-us-2.html"> Contact us 2 (No Fixed Map) </a> </li>
-                <li> <a href="terms-conditions.html"> Terms &amp; Conditions </a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> Checkout </strong> </p>
-                </li>
-                <li> <a href="checkout-0.html"> Checkout Before </a> </li>
-                <li> <a href="checkout-1.html"> checkout step 1 </a> </li>
-                <li> <a href="checkout-2.html"> checkout step 2 </a> </li>
-                <li> <a href="checkout-3.html"> checkout step 3 </a> </li>
-                <li> <a href="checkout-4.html"> checkout step 4 </a> </li>
-                <li> <a href="checkout-5.html"> checkout step 5 </a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> User Account </strong> </p>
-                </li>
-                <li> <a href="account-1.html"> Account Login </a> </li>
-                <li> <a href="account.html"> My Account </a> </li>
-                <li> <a href="my-address.html"> My Address </a> </li>
-                <li> <a href="user-information.html"> User information </a> </li>
-                <li> <a href="wishlist.html"> Wisth list </a> </li>
-                <li> <a href="order-list.html"> Order list </a> </li>
-                <li> <a href="forgot-password.html"> Forgot Password </a> </li>
-              </ul>
-              <ul class="col-lg-2  col-sm-2 col-md-2 unstyled">
-                <li class="no-border">
-                  <p> <strong> &nbsp; </strong> </p>
-                </li>
-                <li> <a href="error-page.html"> Error Page </a> </li>
-                <li> <a href="blank-page.html"> Blank Page </a> </li>
-                <li> <a href="form.html"> Basic Form Element </a> </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
+	</ul>
       
       <!--- this part will be hidden for mobile version -->
       <div class="nav navbar-nav navbar-right hidden-xs">
-        <div class="dropdown  cartMenu "> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-shopping-cart"> </i> <span class="cartRespons"> Cart ($210.00) </span> <b class="caret"> </b> </a>
+        <div class="dropdown  cartMenu "> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-shopping-cart"> </i> <span class="cartRespons"> Cart ($0.00) </span> <b class="caret"> </b> </a>
           <div class="dropdown-menu col-lg-4 col-xs-12 col-md-4 ">
             <div class="w100 miniCartTable scroll-pane">
               <table>
                 <tbody>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/product/3.jpg" alt="img"> </a> </div></td>
-                    <td style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> TSHOP Tshirt DO9 </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $22 </span> </div>
-                      </div></td>
-                    <td  style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $33 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/product/2.jpg" alt="img"> </a> </div></td>
-                    <td  style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> TShir TSHOP 09 </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $15 </span> </div>
-                      </div></td>
-                    <td   style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $120 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/product/5.jpg" alt="img"> </a> </div></td>
-                    <td  style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> Tshir 2014 </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $30 </span> </div>
-                      </div></td>
-                    <td   style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $80 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/product/3.jpg" alt="img"> </a> </div></td>
-                    <td  style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> TSHOP T shirt DO20 </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $15 </span> </div>
-                      </div></td>
-                    <td   style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $55 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/product/4.jpg" alt="img"> </a> </div></td>
-                    <td  style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> T shirt Black </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $44 </span> </div>
-                      </div></td>
-                    <td   style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $40 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
-                  <tr class="miniCartProduct">
-                    <td style="width:20%" class="miniCartProductThumb"><div> <a href="product-details.html"> <img src="images/site/winter.jpg" alt="img"> </a> </div></td>
-                    <td  style="width:40%"><div class="miniCartDescription">
-                        <h4> <a href="product-details.html"> G Star T shirt </a> </h4>
-                        <span class="size"> 12 x 1.5 L </span>
-                        <div class="price"> <span> $80 </span> </div>
-                      </div></td>
-                    <td   style="width:10%" class="miniCartQuantity"><a > X 1 </a></td>
-                    <td  style="width:15%" class="miniCartSubtotal"><span> $8.80 </span></td>
-                    <td  style="width:5%" class="delete"><a > x </a></td>
-                  </tr>
                 </tbody>
               </table>
             </div>
             <!--/.miniCartTable-->
             
             <div class="miniCartFooter text-right">
-              <h3 class="text-right subtotal"> Subtotal: $210 </h3>
+              <h3 class="text-right subtotal"> Subtotal: $0 </h3>
               <a class="btn btn-sm btn-danger"> <i class="fa fa-shopping-cart"> </i> VIEW CART </a> <a class="btn btn-sm btn-primary"> CHECKOUT </a> </div>
             <!--/.miniCartFooter--> 
             
@@ -574,7 +341,6 @@
       data-cycle-swipe=true
       data-cycle-prev=".prevControl"
       data-cycle-next=".nextControl" data-cycle-loader="wait">
-        <div class="slider-item slider-item-img1"> <img src="images/slider/slider0.jpg" class="img-responsive parallaximg sliderImg" alt="img"> </div>
         <div class="slider-item slider-item-img1">
           <div class="sliderInfo">
             <div class="container">
@@ -584,59 +350,14 @@
                     <h1 class="uppercase xlarge">FREE SHIPPING</h1>
                     <h3 class="hidden-xs"> Free Standard Shipping on Orders Over $100 </h3>
                   </div>
-                  <a class="btn btn-danger btn-lg bottomAnima animated opacity0">SHOP NOW ON TSHOP <span class="arrowUnicode">►</span></a> </div>
+                  <a class="btn btn-danger btn-lg bottomAnima animated opacity0">SHOP NOW ON VAPETASTIC <span class="arrowUnicode">►</span></a> </div>
               </div>
             </div>
           </div>
-          <img src="images/slider/slider1.jpg" class="img-responsive parallaximg sliderImg" alt="img"> </div>
+          <img src="http://www.venusvapor.com/wp-content/uploads/2013/11/shutterstock_148813016-1.jpg" class="img-responsive parallaximg sliderImg" alt="img"> </div>
         <!--/.slider-item-->
-        
-        <div class="slider-item slider-item-img2 ">
-          <div class="sliderInfo">
-            <div class="container">
-              <div class="col-lg-12 col-md-12 col-sm-12 sliderTextFull  ">
-                <div class="inner dark maxwidth500 text-center animated topAnima">
-                  <div class=" ">
-                    <h1 class="uppercase xlarge"> CUSTOM HTML BLOCK</h1>
-                    <h3 class="hidden-xs"> Custom Slides to Your Slider </h3>
-                  </div>
-                  <a class="btn btn-danger btn-lg">SHOP NOW ON TSHOP <span class="arrowUnicode">►</span></a> </div>
-              </div>
-            </div>
-          </div>
-          <img src="images/slider/slider3.jpg" class="img-responsive parallaximg sliderImg" alt="img"> </div>
         <!--/.slider-item-->
-        
-        <div class="slider-item slider-item-img3 ">
-          <div class="sliderInfo">
-            <div class="container">
-              <div class="col-lg-5 col-md-4 col-sm-6 col-xs-8   pull-left sliderText white hidden-xs">
-                <div class="inner">
-                  <h1>TSHOP JEANS</h1>
-                  <h3 class="price "> Free Shipping on $100</h3>
-                  <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                  <a href="category.html" class="btn btn-primary">SHOP NOW <span class="arrowUnicode">►</span></a> </div>
-              </div>
-            </div>
-          </div>
-          <img src="images/slider/slider4.jpg" class="img-responsive parallaximg sliderImg"  alt="img"> </div>
         <!--/.slider-item-->
-        
-        <div class="slider-item slider-item-img3">
-          <div class="sliderInfo">
-            <div class="container">
-              <div class="col-lg-5 col-md-6 col-sm-5 col-xs-5 pull-left sliderText blankstyle transformRight">
-                <div class="inner text-right"> <img src="images/slider/color.png" class="img-responsive" alt="img"> </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-5 col-xs-7   pull-left sliderText blankstyle color-white">
-                <div class="inner">
-                  <h1 class="uppercase topAnima animated ">10+ Amazing Color Theme</h1>
-                  <p class="bot tomAnima animated opacity0 hidden-xs"> Fully responsive bootstrap Ecommerce Template. Available in 10+ color schemes and easy to set. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img src="images/slider/6.jpg" class="img-responsive parallaximg sliderImg"  alt="img"> </div>
       </div>
       <!--/.slider slider-v1--> 
     </div>
@@ -662,13 +383,13 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/34.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
             <div class="promotion"> <span class="new-product"> NEW</span> <span class="discount">15% OFF</span> </div>
           </div>
           <div class="description">
             <h4><a href="product-details.html">consectetuer adipiscing </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG / VG</span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -682,13 +403,13 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/30.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
             <div class="promotion"> <span class="discount">15% OFF</span> </div>
           </div>
           <div class="description">
             <h4><a href="product-details.html">luptatum zzril delenit</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -702,13 +423,13 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/36.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
             <div class="promotion"> <span class="new-product"> NEW</span> </div>
           </div>
           <div class="description">
             <h4><a href="product-details.html">eleifend option </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">VG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -722,11 +443,11 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/9.jpg" alt="img" class="img-responsive"></a> </div>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
           <div class="description">
             <h4><a href="product-details.html">mutationem consuetudium </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG / VG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -740,11 +461,11 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/12.jpg" alt="img" class="img-responsive"></a> </div>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
           <div class="description">
-            <h4><a href="product-details.html">sequitur mutationem </a></h4>
+            <h4><a href="product-details.html">mutationem consuetudium </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG / VG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -758,11 +479,47 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/13.jpg" alt="img" class="img-responsive"></a> </div>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
           <div class="description">
-            <h4><a href="product-details.html">consuetudium lectorum.</a></h4>
+            <h4><a href="product-details.html">mutationem consuetudium </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG / VG </span> </div>
+          <div class="price"> <span>$25</span> </div>
+          <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
+        </div>
+      </div>
+     <div class="item">
+        <div class="product">
+          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
+          <i class="glyphicon glyphicon-heart"></i>
+          </a>
+          
+            <div class="image">  
+          <div class="quickview">
+              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
+          <div class="description">
+            <h4><a href="product-details.html">mutationem consuetudium </a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <span class="size">PG / VG </span> </div>
+          <div class="price"> <span>$25</span> </div>
+          <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
+        </div>
+      </div>
+     <div class="item">
+        <div class="product">
+          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
+          <i class="glyphicon glyphicon-heart"></i>
+          </a>
+          
+            <div class="image">  
+          <div class="quickview">
+              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
+          <div class="description">
+            <h4><a href="product-details.html">mutationem consuetudium </a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <span class="size">PG / VG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -776,47 +533,11 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/21.jpg" alt="img" class="img-responsive"></a> </div>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a> </div>
           <div class="description">
-            <h4><a href="product-details.html">parum claram</a></h4>
+            <h4><a href="product-details.html">mutationem consuetudium </a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
-          <div class="price"> <span>$25</span> </div>
-          <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/24.jpg" alt="img" class="img-responsive"></a> </div>
-          <div class="description">
-            <h4><a href="product-details.html">duis dolore </a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
-          <div class="price"> <span>$25</span> </div>
-          <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/15.jpg" alt="img" class="img-responsive"></a></div>
-          <div class="description">
-            <h4><a href="product-details.html">feugait nulla facilisi</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <span class="size">XL / XXL / S </span> </div>
+            <span class="size">PG / VG </span> </div>
           <div class="price"> <span>$25</span> </div>
           <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
         </div>
@@ -847,12 +568,12 @@
 </div>
 <!--/.parallax-image-1-->
 
-<div class="container main-container"> 
+<div class="container main-container">  
   
   <!-- Main component call to action -->
   
   <div class="morePost row featuredPostContainer style2 globalPaddingTop " >
-    <h3 class="section-title style2 text-center"><span>FEATURES PRODUCT</span></h3>
+    <h3 class="section-title style2 text-center"><span>FEATURED PRODUCTS</span></h3>
     <div class="container">
       <div class="row xsResponse">
         <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
@@ -864,13 +585,13 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/30.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
               <div class="promotion"> <span class="new-product"> NEW</span> <span class="discount">15% OFF</span> </div>
             </div>
             <div class="description">
               <h4><a href="product-details.html">aliquam erat volutpat</a></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
+              <span class="size">PG / VG </span> </div>
             <div class="price"> <span>$25</span> <span class="old-price">$75</span> </div>
             <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
           </div>
@@ -885,13 +606,13 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/31.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
               <div class="promotion"> <span class="discount">15% OFF</span> </div>
             </div>
             <div class="description">
               <h4><a href="product-details.html">ullamcorper suscipit lobortis </a></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
+              <span class="size">PG / VG </span> </div>
             <div class="price"> <span>$25</span> </div>
             <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
           </div>
@@ -906,195 +627,38 @@
             <div class="image">  
           <div class="quickview">
               <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/34.jpg" alt="img" class="img-responsive"></a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
               <div class="promotion"> <span class="new-product"> NEW</span> </div>
             </div>
             <div class="description">
               <h4><a href="product-details.html">demonstraverunt lectores </a></h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/12.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">humanitatis per</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/33.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">Eodem modo typi</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/10.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">sequitur mutationem </a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/37.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">consuetudium lectorum.</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/35.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">parum claram</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> <span class="old-price">$75</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/13.jpg" alt="img" class="img-responsive"></a> </div>
-            <div class="description">
-              <h4><a href="product-details.html">duis dolore </a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/21.jpg" alt="img" class="img-responsive"></a>
-              <div class="promotion"> <span class="new-product"> NEW</span> <span class="discount">15% OFF</span> </div>
-            </div>
-            <div class="description">
-              <h4><a href="product-details.html">aliquam erat volutpat</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/14.jpg" alt="img" class="img-responsive"></a>
-              <div class="promotion"> <span class="discount">15% OFF</span> </div>
-            </div>
-            <div class="description">
-              <h4><a href="product-details.html">ullamcorper suscipit lobortis </a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
-            <div class="price"> <span>$25</span> </div>
-            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
-          </div>
-        </div>
-        <!--/.item-->
-        <div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
-          <div class="product">
-          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
-          <i class="glyphicon glyphicon-heart"></i>
-          </a>
-          
-            <div class="image">  
-          <div class="quickview">
-              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
-             </div><a href="product-details.html"><img src="images/product/17.jpg" alt="img" class="img-responsive"></a>
-              <div class="promotion"> <span class="new-product"> NEW</span> </div>
-            </div>
-            <div class="description">
-              <h4><a href="product-details.html">demonstraverunt lectores </a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-              <span class="size">XL / XXL / S </span> </div>
+              <span class="size">PG / VG </span> </div>
             <div class="price"> <span>$25</span> </div>
             <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
           </div>
         </div>
         <!--/.item--> 
+		<div class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <div class="product">
+          <a class="add-fav tooltipHere" data-toggle="tooltip" data-original-title="Add to Wishlist"  data-placement="left">
+          <i class="glyphicon glyphicon-heart"></i>
+          </a>
+          
+            <div class="image">  
+          <div class="quickview">
+              <a title="Quick View" class="btn btn-xs  btn-quickview" data-target="#product-details-modal" data-toggle="modal"> Quick View </a>
+             </div><a href="product-details.html"><img src="http://www.e-cigarette-supply.com/images/pictures/E-liquid.jpg" alt="img" class="img-responsive"></a>
+              <div class="promotion"> <span class="new-product"> NEW</span> </div>
+            </div>
+            <div class="description">
+              <h4><a href="product-details.html">demonstraverunt lectores </a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+              <span class="size">PG / VG </span> </div>
+            <div class="price"> <span>$25</span> </div>
+            <div class="action-control"> <a class="btn btn-primary"> <span class="add2cart"><i class="glyphicon glyphicon-shopping-cart"> </i> Add to cart </span> </a> </div>
+          </div>
+        </div>
       </div>
       <!-- /.row -->
       
@@ -1107,43 +671,7 @@
   <!--/.featuredPostContainer-->
   
   <hr class="no-margin-top">
-  <div class="width100 section-block ">
-    <div class="row featureImg">
-      <div class="col-md-3 col-sm-3 col-xs-6"> <a href="category.html"><img src="images/site/new-collection-1.jpg" class="img-responsive" alt="img" ></a> </div>
-      <div class="col-md-3 col-sm-3 col-xs-6"> <a href="category.html"><img src="images/site/new-collection-2.jpg" class="img-responsive" alt="img" ></a> </div>
-      <div class="col-md-3 col-sm-3 col-xs-6"> <a href="category.html"><img src="images/site/new-collection-3.jpg" class="img-responsive" alt="img" ></a> </div>
-      <div class="col-md-3 col-sm-3 col-xs-6"> <a href="category.html"><img src="images/site/new-collection-4.jpg" class="img-responsive" alt="img"></a> </div>
-    </div>
-    <!--/.row--> 
-  </div>
   <!--/.section-block-->
-  
-  <div class="width100 section-block">
-    <h3 class="section-title"><span> BRAND</span> <a id="nextBrand" class="link pull-right carousel-nav"> <i class="fa fa-angle-right"></i></a> <a id="prevBrand" class="link pull-right carousel-nav"> <i class="fa fa-angle-left"></i> </a> </h3>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="no-margin brand-carousel owl-carousel owl-theme">
-          <li> <a ><img src="images/brand/1.gif" alt="img" ></a></li>
-          <li><img src="images/brand/2.png" alt="img" ></li>
-          <li><img src="images/brand/3.png" alt="img" ></li>
-          <li><img src="images/brand/4.png" alt="img" ></li>
-          <li><img src="images/brand/5.png" alt="img" ></li>
-          <li><img src="images/brand/6.png" alt="img" ></li>
-          <li><img src="images/brand/7.png" alt="img" ></li>
-          <li><img src="images/brand/8.png" alt="img" ></li>
-          <li><img src="images/brand/1.gif" alt="img" ></li>
-          <li><img src="images/brand/2.png" alt="img" ></li>
-          <li><img src="images/brand/3.png" alt="img" ></li>
-          <li><img src="images/brand/4.png" alt="img" ></li>
-          <li><img src="images/brand/5.png" alt="img" ></li>
-          <li><img src="images/brand/6.png" alt="img" ></li>
-          <li><img src="images/brand/7.png" alt="img" ></li>
-          <li><img src="images/brand/8.png" alt="img" ></li>
-        </ul>
-      </div>
-    </div>
-    <!--/.row--> 
-  </div>
   <!--/.section-block--> 
   
 </div>
@@ -1155,8 +683,8 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="parallax-content clearfix">
-            <h1 class="xlarge"> Trusted Seller 500+ </h1>
-            <h5 class="parallaxSubtitle"> Lorem ipsum dolor sit amet consectetuer </h5>
+            <h1 class="xlarge"> Quality Liquids </h1>
+            <h5 class="parallaxSubtitle"> Made to perfection </h5>
           </div>
         </div>
       </div>
@@ -1175,17 +703,17 @@
                     <!-- product Image -->
 
                     <div class="main-image  col-lg-12 no-padding style3">
-                        <a class="product-largeimg-link" href="product-details.html"><img src="images/zoom/zoom1.jpg" class="img-responsive product-largeimg" alt="img">
+                        <a class="product-largeimg-link" href="product-details.html"><img src="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2" class="img-responsive product-largeimg" alt="img">
                         </a>
                     </div>
                     <!--/.main-image-->
                     
                     <div class="modal-product-thumb">
-                        <a class="thumbLink selected"><img data-large="images/zoom/zoom1.jpg" alt="img" class="img-responsive" src="images/zoom/zoom1.jpg">
+                        <a class="thumbLink selected"><img data-large="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2" alt="img" class="img-responsive" src="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2">
                         </a>
-                        <a class="thumbLink"><img data-large="images/zoom/zoom2.jpg" alt="img" class="img-responsive" src="images/zoom/zoom2.jpg">
+                        <a class="thumbLink"><img data-large="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2" alt="img" class="img-responsive" src="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2">
                         </a>
-                        <a class="thumbLink"><img data-large="images/zoom/zoom3.jpg" alt="img" class="img-responsive" src="images/zoom/zoom3.jpg">
+                        <a class="thumbLink"><img data-large="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2" alt="img" class="img-responsive" src="http://cdn3.bigcommerce.com/s-zqxtc/products/531/images/283/2014_05_08_23.45.45__25277.1399765339.1280.1280.jpg?c=2">
                         </a>
                     </div> <!--/.modal-product-thumb-->
                 </div> <!--/ product Image-->
@@ -1198,19 +726,6 @@
                         <div class="product-price"> <span class="price-sales"> $70</span> <span class="price-standard">$95</span> </div>
                         <div class="details-description">
                             <p>In scelerisque libero ut elit porttitor commodo Suspendisse laoreet magna. </p>
-                        </div>
-                        <div class="color-details"> <span class="selected-color"><strong>COLOR</strong></span>
-                            <ul class="swatches Color">
-                                <li class="selected">
-                                    <a style="background-color:#f1f40e"> </a>
-                                </li>
-                                <li>
-                                    <a style="background-color:#adadad"> </a>
-                                </li>
-                                <li>
-                                    <a style="background-color:#4EC67F"> </a>
-                                </li>
-                            </ul>
                         </div>
                         <!--/.color-details-->
 
@@ -1279,9 +794,8 @@
           <h3> Support </h3>
           <ul>
             <li class="supportLi">
-              <p> Lorem ipsum dolor sit amet, consectetur </p>
-              <h4> <a class="inline" href="callto:+8801680531352"> <strong> <i class="fa fa-phone"> </i> 88 01680 531352 </strong> </a> </h4>
-              <h4> <a class="inline" href="mailto:help@tshopweb.com"> <i class="fa fa-envelope-o"> </i> help@tshopweb.com </a> </h4>
+              <p> Got Questions? Email us on </p>
+              <h4> <a class="inline" href="mailto:help@tshopweb.com"> <i class="fa fa-envelope-o"> </i> email@email.com </a> </h4>
             </li>
           </ul>
         </div>
@@ -1289,31 +803,16 @@
           <h3> Shop </h3>
           <ul>
             <li> <a href="index.html"> Home </a> </li>
-            <li> <a href="category.html"> Category </a> </li>
-            <li> <a href="sub-category.html"> Sub Category </a> </li>
           </ul>
         </div>
         <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
           <h3> Information </h3>
           <ul>
-            <li> <a href="product-details.html"> Product Details </a> </li>
-            <li> <a href="product-details-style2.html"> Product Details Version 2 </a> </li>
-            <li> <a href="cart.html"> Cart </a> </li>
-            <li> <a href="about-us.html"> About us </a> </li>
-            <li> <a href="about-us-2.html"> About us 2 </a> </li>
-            <li> <a href="contact-us.html"> Contact us </a> </li>
-            <li> <a href="contact-us-2.html"> Contact us 2 </a> </li>
-            <li> <a href="terms-conditions.html"> Terms &amp; Conditions </a> </li>
           </ul>
         </div>
         <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
           <h3> My Account </h3>
           <ul>
-            <li> <a href="account-1.html"> Account Login </a> </li>
-            <li> <a href="account.html"> My Account </a> </li>
-            <li> <a href="my-address.html"> My Address </a> </li>
-            <li> <a href="wishlist.html"> Wisth list </a> </li>
-            <li> <a href="order-list.html"> Order list </a> </li>
           </ul>
         </div>
         <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
@@ -1343,7 +842,7 @@
   
   <div class="footer-bottom">
     <div class="container">
-      <p class="pull-left"> &copy; TSHOP 2014. All right reserved. </p>
+      <p class="pull-left"> &copy; VAPETASTIC 2014. All right reserved. </p>
       <div class="pull-right paymentMethodImg"> <img height="30" class="pull-right" src="images/site/payment/master_card.png" alt="img" > <img height="30" class="pull-right" src="images/site/payment/paypal.png" alt="img" > <img height="30" class="pull-right" src="images/site/payment/american_express_card.png" alt="img" > <img  height="30" class="pull-right" src="images/site/payment/discover_network_card.png" alt="img" > <img  height="30" class="pull-right" src="images/site/payment/google_wallet.png" alt="img" > </div>
     </div>
   </div>
